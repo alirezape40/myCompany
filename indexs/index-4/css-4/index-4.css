@@ -1,0 +1,377 @@
+body {
+    @font-face {
+        font-family: "Nazanin";
+        src: url(../../../font/Nazanin.ttf) format(.ttf);
+    }
+}
+
+.font-n {
+    font-family: "Nazanin";
+}
+
+.d-rtl {
+    direction: rtl;
+}
+
+.khatt {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(1, 1, 170);
+    margin: 1rem auto;
+}
+
+.khat {
+    right: 13.5%;
+    position: absolute;
+    width: 170px;
+    height: 5px;
+    background-color: rgb(1, 1, 170);
+    margin: 1rem auto;
+}
+
+@media screen and (max-width:1399.98px) {
+    .khat {
+        right: 9%;
+    }
+}
+
+@media screen and (max-width:1299.98px) {
+    .khat {
+        right: 6%;
+    }
+}
+
+@media screen and (max-width:1099.98px) {
+    .khat {
+        right: 6%;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .khat {
+        right: 13%;
+    }
+}
+
+@media screen and (max-width:850.98px) {
+    .khat {
+        right: 8%;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .khat {
+        right: 16%;
+        width: 140px;
+    }
+    .h-content-1 {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width:649.98px) {
+    .khat {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .khat {
+        right: 3%;
+    }
+}
+
+
+/* navbar */
+
+.nav-ch {
+    position: absolute;
+    top: 5%;
+}
+
+.header {
+    height: 20%;
+    background: url(../img/header-1.jpg) center /cover no-repeat;
+}
+
+.navbar-icon {
+    font-size: 1.5rem;
+    color: black;
+    border: oldlace;
+}
+
+.navbar-toggler {
+    outline-color: white !important;
+}
+
+.navbar-nav {
+    position: absolute;
+    left: 22%;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0, 0.2);
+    direction: rtl;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-family: "Nazanin";
+    font-size: 1.3rem;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.active-nav {
+    border-bottom: 2px solid white;
+}
+
+.nav-item {
+    margin: 0 2rem;
+    padding: 0.1rem;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1099.98px) {
+    .nav-link {
+        text-transform: capitalize;
+        font-family: "Nazanin";
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .navbar-nav {
+        left: 15%;
+    }
+    .nav-item {
+        margin: 0 1.5rem !important;
+        padding-left: 0.7rem !important;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .nav-ch {
+        float: left;
+        clear: both;
+        /* margin-left: 1rem !important; */
+    }
+    /* .navbar-nav {
+        left: 10%;
+    } */
+    .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    .nav-item {
+        margin-left: 0 !important;
+        padding-left: 0.7rem !important;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .navbar-nav {
+        display: inline;
+    }
+    .header {
+        height: 50%;
+        background: url(../img/header-3.jpg) center /cover fixed no-repeat;
+    }
+    .navbar-nav {
+        left: 3%;
+        background-color: transparent;
+        direction: rtl;
+    }
+    .nav-link {
+        color: black;
+    }
+    .nav-ch {
+        top: -1% !important;
+        /* margin-left: 1rem !important; */
+    }
+    .active-nav {
+        color: rgb(255, 255, 255);
+        border-radius: 25px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    .nav-item:hover {
+        border-radius: 25px;
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+    .nav-item {
+        border: none !important;
+        margin-bottom: 1.2rem !important;
+    }
+}
+
+
+/* end navbar */
+
+
+/* content-2 */
+
+.content-5 {
+    background-color: rgba(131, 131, 131, 0.7);
+}
+
+.card-content-4 {
+    background-image: linear-gradient(to right, rgb(17, 17, 182), rgb(26, 26, 161), rgb(4, 4, 158));
+    padding: 50px 20px;
+    height: 30vw;
+    border-radius: 25px;
+    margin-right: 10px;
+    box-shadow: 5px 10px 30px rgb(141, 141, 133);
+}
+
+.card-content-44 {
+    box-shadow: 5px 10px 30px rgb(141, 141, 133);
+    background-image: linear-gradient(to right, rgb(17, 17, 182), rgb(26, 26, 161), rgb(4, 4, 158));
+    padding: 50px 20px;
+    height: 35vw;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.p-abute {
+    line-height: 34px;
+}
+
+@media screen and (max-width:1199.98px) {
+    .card-content-4 {
+        padding: 30px 20px;
+        height: 42vw;
+        margin-right: 10px;
+    }
+    .card-content-44 {
+        padding: 30px 20px;
+        height: 45vw;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .card-content-44,
+    .card-content-4 {
+        padding: 50px 20px;
+        height: 45vw;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .card-content-44,
+    .card-content-4 {
+        height: 60vw;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .card-content-44,
+    .card-content-4 {
+        padding: 50px 20px;
+        height: 70vw;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* end content-2 */
+
+.img-item {
+    position: relative;
+    background-color: rgb(163, 12, 118);
+    cursor: pointer;
+}
+
+.img-g {
+    transition: all 1s ease-in-out;
+    width: 100%;
+}
+
+.galaxy-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 22px;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+.img-item:hover .img-g {
+    opacity: 0.4;
+}
+
+.img-item:hover .galaxy-content {
+    opacity: 1;
+}
+
+.img-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: 0.2rem solid white;
+    transition: all 1s ease-in-out;
+    outline-offset: -1.5rem;
+    transform: scale(0);
+}
+
+.img-item:hover:after {
+    transform: scale(1);
+}
+
+.bg-ga {
+    background: url(../img/gg2.jpg) center/ cover fixed no-repeat;
+}
+
+.ul-content {
+    list-style-type: none;
+}
+
+.item-4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: rgb(17, 16, 16);
+}
+
+.footer-nav {
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-right: 15px;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.navbar-navv {
+    list-style-type: none;
+}
+
+.footer-icon:hover {
+    color: rgb(112, 111, 111) !important;
+}
+
+.item:hover {
+    background-color: rgba(122, 122, 122, 0.5);
+    border-radius: 25px;
+}
+
+
+/* end footer */
