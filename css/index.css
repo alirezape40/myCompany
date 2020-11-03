@@ -3,6 +3,7 @@ body {
         font-family: "Nazanin";
         src: url(../font/Nazanin.ttf) format(.ttf);
     }
+    overflow-x: hidden;
 }
 
 .font-n {
