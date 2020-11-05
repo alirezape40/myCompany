@@ -284,7 +284,7 @@ body {
 
 .img-item {
     position: relative;
-    background-color: rgb(163, 12, 118);
+     background-image: linear-gradient(to right, rgb(17, 17, 182), rgb(26, 26, 161), rgb(4, 4, 158));
     cursor: pointer;
 }
 
